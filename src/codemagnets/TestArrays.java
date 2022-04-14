@@ -10,7 +10,6 @@ island = Azores
 
 public class TestArrays {
     public static void main(String[] args) {
-        int y = 0;
         int[] index = new int[4];
         index[0] = 1;
         index[1] = 3;
@@ -21,6 +20,7 @@ public class TestArrays {
         islands[1] = "Fiji";
         islands[2] = "Azores";
         islands[3] = "Cozumel";
+        int y = 0;
         int ref;
         while (y < 4) {
             ref = index[y];
